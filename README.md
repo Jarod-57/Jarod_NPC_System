@@ -10,12 +10,12 @@ This is a NPC Sytem I've made for unity 3D games, free to use for educational pu
     <br/> - Add all your NPC prefabs to the Base NPC Prefab list and add their animation state controller to NPCAnimatorStateController Field.
 
 -- Step 2:
-    - Create an empty child of NPCSystem and name it SpawnpointManager.
-    - Add the Spawnpoint manager component to it.
-    - Do the same with an empty child of NPCSystem named WaypointsManager, and add the WaypointManager script instead of SpawnpointManager. 
+    <br/> - Create an empty child of NPCSystem and name it SpawnpointManager.
+    <br/> - Add the Spawnpoint manager component to it.
+    <br/> - Do the same with an empty child of NPCSystem named WaypointsManager, and add the WaypointManager script instead of SpawnpointManager. 
 
 -- Step 3:
-    - See the how to use section
+    <br/> - See the how to use section
 
 
 ## How to use:
@@ -36,11 +36,11 @@ But if you want to make a build of your game, you must move these script into th
 ## NPC Spawner Component """Explained"""
 
 Here's a very quick explication of what the field of NPC Spawner script does:
-
-- NPCAnimatorStateController (RuntimeAnimatorController): The Animation State Controller of all NPCs, you create one with the animations you want and you put it in there.
-- BaseNpcPrefabs (List): A list of all the prefabs you can have for NPCs, there's will be chosed randomly before spawning.
-- NPCCount (Int): The number of NPC you want to Spawn.
-- RespawnCheckInterval (Int): How many seconds before checking if NPC are dead and if we should make them disappear and respawn.
-- PlayerProximityRadius (Float): The radius of the sphere where we check if the player is in. If is not, we can make NPC respawn.
-- Min NPC Speed (Float): The minimum speed NPCs can have.
-- Max NPC Speed (Float): The maximum speed NPCs can have.
+<br/>
+<br/> - NPCAnimatorStateController (RuntimeAnimatorController): The Animation State Controller of all NPCs, you create one with the animations you want and you put it in there.
+<br/> - BaseNpcPrefabs (List): A list of all the prefabs you can have for NPCs, there's will be chosed randomly before spawning.
+<br/> - NPCCount (Int): The number of NPC you want to Spawn.
+<br/> - RespawnCheckInterval (Int): How many seconds before checking if NPC are dead and if we should make them disappear and respawn.
+<br/> - PlayerProximityRadius (Float): The radius of the sphere where we check if the player is in. If is not, we can make NPC respawn.
+<br/> - Min NPC Speed (Float): The minimum speed NPCs can have.
+<br/> - Max NPC Speed (Float): The maximum speed NPCs can have.

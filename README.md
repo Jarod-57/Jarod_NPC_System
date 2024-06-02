@@ -5,16 +5,19 @@ This is a NPC Sytem I've made for unity 3D games, free to use for educational pu
 ## How to setup:
 
 -- Step 1:
+<br/>
     <br/> - Create an empty named NPCSystem in your scene
     <br/> - Add the NPCSPawner component to the NPCSystem empty. Everything on the script is pretty self explaining, but you'll find "documentation" at the end of the readme.
     <br/> - Add all your NPC prefabs to the Base NPC Prefab list and add their animation state controller to NPCAnimatorStateController Field.
 
 -- Step 2:
+<br/>
     <br/> - Create an empty child of NPCSystem and name it SpawnpointManager.
     <br/> - Add the Spawnpoint manager component to it.
     <br/> - Do the same with an empty child of NPCSystem named WaypointsManager, and add the WaypointManager script instead of SpawnpointManager. 
 
 -- Step 3:
+<br/>
     <br/> - See the how to use section
 
 
